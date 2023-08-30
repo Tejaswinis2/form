@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Application form</title>
+    <style>
+        .hi{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .column {
+           float: left;
+           width: 50%;
+         }
+    </style>
+</head>
+<body style="background-color:lightcyan;">
+    <div>
+    <h3 class="hi" style="text-align: center;">BAPUJI INSTITUTE OF ENGINEERING AND TECHNOLOGY,DAVANAGERE</h3>
+    <h3 style="text-align: center;"><u>Personal details form</u></h3>
+</div>
+    <form>
+        <div class="row">
+            <div class="column">
+        <label>First name:&emsp;</label>
+        <input type="text" placeholder="your first name"><br><br>
+        <label>Last name:&emsp;&nbsp;</label>
+        <input type="text" placeholder="your last name"><br><br>
+        <label>Father name:&ensp;</label>
+        <input type="text" placeholder="your father name"><br><br>
+        <label>Mother name:&nbsp;</label>
+        <input type="text" placeholder="your mother name"><br><br>
+        <label>Date of Birth:&nbsp;</label>
+        <input type="date" placeholder="dd/mm/yyyy"><br><br>
+        <label>Gender:&nbsp;</label><br>
+        <input type="radio" name="gender" value="1">Female<br>
+        <input type="radio" name="gender" value="2">Male<br>
+        <input type="radio" name="gender" value="3">Other<br><br>
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="hobby">Painting<br>
+        <input type="checkbox" name="hobby">Reading books<br>
+        <input type="checkbox" name="hobby">Listening songs<br>
+        <input type="checkbox" name="hobby">Gardening<br><br>
+        <label>10th Percentage:</label>
+        <input type="text" placeholder="your marks in percentage"><br><br>
+        <label>12th Percentage:</label>
+        <input type="text" placeholder="your marks in percentage"></div>
+        <div class="column">
+        <img src="https://thumbs.dreamstime.com/z/faceless-businessman-avatar-man-suit-blue-tie-human-profile-userpic-face-features-web-picture-gentlemen-85824471.jpg" alt="Pic" width="150px" height="150px"><br>
+        <input type="file" id="myFile" name="filename">
+        <p>Address:</p>
+        <textarea placeholder="enter your address"></textarea><br><br>
+        <label>Email:&emsp;&ensp;&nbsp;</label>
+        <input type="email" placeholder="enter your email"><br><br>
+        <label>CET Rank:</label>
+        <input type="text" placeholder="your CET rank number"><br><br>
+        <label>Aadhar No:</label>
+        <input type="text" placeholder="your Aadhar number"><br><br>
+        <label>Phone No:&nbsp;</label>
+        <input type="tel" placeholder="your Phone number"><br><br>
+        <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
